@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    background: #91eae4;
+    background: -webkit-linear-gradient(to bottom, #91EAE4, #86A8E7, #7F7FD5);
+    background: linear-gradient(to bottom, #91EAE4, #86A8E7, #7F7FD5);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.app-container {
+    margin: 0 auto;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    max-width: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.app-card {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, .2);
+    padding: 2rem;
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+.add-btn {
+    min-width: 120px;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+
+h6 {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    padding: 6px 0;
+    border-bottom: 1px solid #f5f4f4;
+}
+
+.todo-item.edited {
+    border-color: #4d4df6;
+}
+
+
+.todo-item input[type="checkbox"] {
+    margin-right: 6px;
+}
+
+h6 {
+    color: #b9b9b9;
+}
+
+h6 span {
+    color: #444343;
+}
